@@ -45,4 +45,5 @@ body{margin:0}
 .list2 li i {margin-right: 8px;color: #07a3e9;}
 .text-center{text-align: center;}
 .normalize{border-width: 0;}
-.list-footer{list-style: none;list-style-type: none;}
+.list-footer{list-style: none;list-style-type: none;padding:   0;}
+/* .list-footer li{padding:   0;} */
