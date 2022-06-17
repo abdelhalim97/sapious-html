@@ -1,18 +1,19 @@
 body{margin:0}
 .bg-blue{background-color: #edf9ff;}
-
 .text-blue{color: #07a3e9;}
 .text-gray{color: #555 ;}
+.text-grey{color: #517F87;}
 .justify-between{display: flex;justify-content: space-between;}
 .justify-center{display: flex;justify-content: center;}
 .justify-start{display: flex;justify-content: flex-start;}
 .justify-end{display: flex;justify-content: flex-end;}
 .justify-around{display: flex;justify-content: space-around;}
-
 .align-center{display: flex;align-items: center;}
 .flex{display: flex;}
 .p{padding:10px}
 .py{padding:10px 0}
+.my{margin:10px 0}
+.my-lg{margin:40px 0}
 .px{padding:0 10px}
 .list{list-style: none;list-style-type: none;}
 .list li{margin: 0 8px;}
@@ -30,7 +31,18 @@ body{margin:0}
 .rounded-full{border-radius: 100%;}
 .person-border{border:2px solid #07a3e9}
 .text-sm{font-size:15px}
+.text-lg{font-size:40px}
 .relative{position: relative;}
 .absolute{position:absolute}
 .number{color: #DDDDDD;font-size: 45px;}
-
+.grid{display: grid;gap:10px}
+.grid-two{grid-template-columns: repeat(2,1fr);}
+.grid-4{grid-template-columns: repeat(4,1fr);}
+.grid-four{grid-template: repeat(2,1fr)/repeat(2,1fr);}
+.grid-nine{grid-template: repeat(3,1fr)/repeat(3,1fr);}
+.list2{list-style: none;list-style-type: none;padding: 0}
+.list2 li{padding: 10px 0;}
+.list2 li i {margin-right: 8px;color: #07a3e9;}
+.text-center{text-align: center;}
+.normalize{border-width: 0;}
+.list-footer{list-style: none;list-style-type: none;}
