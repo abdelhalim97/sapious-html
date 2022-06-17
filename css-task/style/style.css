@@ -1,5 +1,6 @@
 body{margin:0}
 .bg-blue{background-color: #edf9ff;}
+
 .text-blue{color: #07a3e9;}
 .text-gray{color: #555 ;}
 .justify-between{display: flex;justify-content: space-between;}
@@ -16,7 +17,7 @@ body{margin:0}
 .list{list-style: none;list-style-type: none;}
 .list li{margin: 0 8px;}
 .list li:hover{margin: 0 8px;color: #07a3e9;cursor: pointer;}
-.container-sm{padding: 0 30px;}
+.container-sm{padding: 0 40px;}
 .btn{background-color: #07a3e9;color: #fff;border-radius: 10px;border-color:#07a3e9;padding: 7px 14px;cursor: pointer;offset: none}
 .btn2{background-color: #fff;color: #555;border-radius: 10px;border-color:#fff;padding: 7px 14px;cursor: pointer;offset: none}
 .bold{font-weight: bold;}
@@ -31,7 +32,5 @@ body{margin:0}
 .text-sm{font-size:15px}
 .relative{position: relative;}
 .absolute{position:absolute}
+.number{color: #DDDDDD;font-size: 45px;}
 
-/* 
-                        style="min-width:60px ;"
- */
